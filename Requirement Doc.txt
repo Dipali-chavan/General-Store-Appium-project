@@ -1,0 +1,16 @@
+1.Connect your mobile with laptop for running the particular app.
+
+2.Start the appium server using command prompt with command - appium
+   if the appium server is not downloaded then downlod first.
+3.Open Appium Inspector -> create capabilities (i.e platformName, appium:platformVersion, appium:deviceName, appium:app, appium:automationName)
+{
+  "platformName": "Android",
+  "appium:platformVersion": "12",
+  "appium:deviceName": "LS1654QB5",
+  "appium:app": "C:/Users/Dipali1.Chavan/eclipse-workspace/EsimApp/src/test/java/dipali/EsimApp/Resources/ESim.apk",
+  "appium:automationName": "UiAutomator2"
+}
+
+start the session
+
+4.Run the java file
